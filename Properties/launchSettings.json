@@ -2,39 +2,25 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "https://nerdjewels.com",
+      "sslPort": 0
+    },
     "iisExpress": {
-      "applicationUrl": "http://localhost:56346",
+      "applicationUrl": "http://localhost/nerdjewels",
       "sslPort": 0
     }
   },
   "profiles": {
     "IIS Express": {
-      "commandName": "IISExpress",
+      "commandName": "IIS",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Production"
       },
-      "inspectUri": "https://nerdjewels.azurewebsites.net:80/_framework/debug/ws-proxy?browser={browserInspectUri}"
-    },
-    "nerdjewels": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "dotnetRunMessages": "true",
-      "applicationUrl": "https://nerdjewels.azurewebsites.net:80",
-      "inspectUri": "https://nerdjewels.azurewebsites.net:80/_framework/debug/ws-proxy?browser={browserInspectUri}"
-    },
-    "WSL 2": {
-      "commandName": "WSL2",
-      "launchBrowser": true,
-      "launchUrl": "https://nerdjewels.azurewebsites.net:80",
-      "environmentVariables": {
-        "ASPNETCORE_URLS": "https://nerdjewels.azurewebsites.net:80",
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "distributionName": ""
+      "inspectUri": "https://nerdjewels.com:80/_framework/debug/ws-proxy?browser={browserInspectUri}"
     }
+   
+ 
   }
 }
