@@ -3,18 +3,16 @@ LIST OF BLACKLIST EMAILS AND PHONES
 	meharey@yahoo.com
 	aj@limitlessincome.com
 	ajmeharey@gateway.com
-
-
-
-
-
-	Troubleshooting details
-	If you contact your administrator, send this info to them.
-	Copy info to clipboard  Copied
-	
-	Request Id: b8e05434-d315-4edb-b48a-1ed283fc0201
-	Correlation Id: 3f1ad173-9dd2-4558-8a25-d2e9e1f8210d
-	Timestamp: 2021-06-22T12:36:27Z
-	Message: AADSTS700054: response_type 'id_token' is not enabled for the application.
-	Flag sign-in errors for review: Enable flagging
-	If you plan on getting help for this problem, enable flagging and try to reproduce the error within 20 minutes. Flagged events make diagnostics available and are raised to admin attention.
+	info@fhasearchusa.com
+	santosus1701@gmail.com
+	mrector2@gmail.com
+	adisanto@charter.net
+	arise2zion@gmail.com
+	mverhine@msn.com
+	mteeter@aol.com
+	firstabrook@cuvox.de
+	md@sike.com
+	davidwilkerson@att.net
+	davidwilkerson@gmail.com
+	idwilkerson@yahoo.com
+	teamliberty411@gmail.com
