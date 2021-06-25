@@ -14,13 +14,13 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IIS",
+      "workingDirectory": "C:\\Users\\Sike42\\source\\repos\\nerdjewels",
       "launchBrowser": true,
+      "launchUrl": "http://localhost/nerdjewels",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       },
       "inspectUri": "https://nerdjewels.com:80/_framework/debug/ws-proxy?browser={browserInspectUri}"
     }
-   
- 
   }
 }
