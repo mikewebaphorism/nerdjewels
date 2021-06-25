@@ -21,6 +21,14 @@
         "ASPNETCORE_ENVIRONMENT": "Production"
       },
       "inspectUri": "https://nerdjewels.com:80/_framework/debug/ws-proxy?browser={browserInspectUri}"
+    },
+    "Debug": {
+      "commandName": "IISExpress",
+      "workingDirectory": "C:\\Users\\Sike42\\source\\repos\\nerdjewels",
+      "launchBrowser": true,
+      "sqlDebugging": false,
+      "nativeDebugging": false,
+      "jsWebView2Debugging": true
     }
   }
 }
