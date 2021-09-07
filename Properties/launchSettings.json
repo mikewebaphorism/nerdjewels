@@ -21,7 +21,7 @@
       },
       "applicationUrl": "https://nerdjewels.com",
       "inspectUri": "https://nerdjewels.com:80/_framework/debug/ws-proxy?browser={browserInspectUri}"
-    }
+    
     },
     "BlazorApp1.Server": {
       "commandName": "Project",
