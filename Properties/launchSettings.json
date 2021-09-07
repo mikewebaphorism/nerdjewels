@@ -15,7 +15,7 @@
     "IIS Express": {
       "commandName": "Project",
       "workingDirectory": "C:\\Users\\Sike42\\source\\repos\\nerdjewels",
-      "launchUrl": "https://localhost:5001/",
+      "launchUrl": "http://localhost/websites/nerdjewels/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       },

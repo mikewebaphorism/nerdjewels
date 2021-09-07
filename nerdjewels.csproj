@@ -12,13 +12,13 @@
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <Version>1.0.1</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <ApplicationIcon></ApplicationIcon>
+    <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
     <StartupObject />
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <PackageIcon>492421298-200x250-tiny.png</PackageIcon>
     <PackageIconUrl />
     <RepositoryType>github</RepositoryType>
-    <RepositoryUrl>https://github.com/mikewebaphorism/sikesalley.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mikewebaphorism/nerdjewels.git</RepositoryUrl>
     <PackageTags>PC Repair</PackageTags>
     <PackageReleaseNotes>Sikes Alley</PackageReleaseNotes>
     <Copyright>None</Copyright>
