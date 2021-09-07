@@ -18,7 +18,7 @@
     <PackageIcon>492421298-200x250-tiny.png</PackageIcon>
     <PackageIconUrl />
     <RepositoryType>github</RepositoryType>
-    <RepositoryUrl>https://github.com/mikewebaphorism/nerdjewels.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mikewebaphorism/sikesalley.git</RepositoryUrl>
     <PackageTags>PC Repair</PackageTags>
     <PackageReleaseNotes>Sikes Alley</PackageReleaseNotes>
     <Copyright>None</Copyright>
@@ -26,6 +26,7 @@
     <OutputType>WinExe</OutputType>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <FileVersion>1.0.2.0</FileVersion>
+    <UserSecretsId>0de0e8de-2946-46fc-bef7-59af5e3e1bc7</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
