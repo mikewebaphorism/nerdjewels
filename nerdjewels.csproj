@@ -41,6 +41,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\ads.txt" />
+    <None Include="wwwroot\robots.txt" />
+    <None Include="wwwroot\sitemap.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
