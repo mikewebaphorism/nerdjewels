@@ -18,7 +18,7 @@
     <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <RepositoryType>github</RepositoryType>
-    <RepositoryUrl>https://github.com/mikewebaphorism/sikesalley.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mikewebaphorism/nerdjewels1.git</RepositoryUrl>
     <PackageTags>PC Repair</PackageTags>
     <PackageReleaseNotes>Sikes Alley</PackageReleaseNotes>
     <Copyright>None</Copyright>
@@ -48,9 +48,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\ads.txt" />
-    <None Include="wwwroot\robots.txt" />
-    <None Include="wwwroot\sitemap.xml" />
+    <Resource Include="wwwroot\ads.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wwwroot\robots.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -59,6 +62,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\sitemap.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
