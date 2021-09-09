@@ -15,7 +15,7 @@
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <StartupObject />
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    <PackageIcon>492421298-200x250-tiny.png</PackageIcon>
+    <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <RepositoryType>github</RepositoryType>
     <RepositoryUrl>https://github.com/mikewebaphorism/sikesalley.git</RepositoryUrl>
@@ -45,6 +45,12 @@
 
   <ItemGroup>
     <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\ads.txt" />
+    <None Include="wwwroot\robots.txt" />
+    <None Include="wwwroot\sitemap.xml" />
   </ItemGroup>
 
   <ItemGroup>
