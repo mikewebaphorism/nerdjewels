@@ -15,7 +15,7 @@
     <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
     <StartupObject />
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    <PackageIcon>492421298-200x250-tiny.png</PackageIcon>
+    <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <RepositoryType>github</RepositoryType>
     <RepositoryUrl>https://github.com/mikewebaphorism/sikesalley.git</RepositoryUrl>
@@ -53,13 +53,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="D:\Images\NJ\NJ007\small\492421298-200x250-tiny.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
