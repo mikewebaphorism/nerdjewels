@@ -12,7 +12,7 @@
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <Version>1.0.1</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
+    <ApplicationIcon></ApplicationIcon>
     <StartupObject />
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <PackageIcon>492421298-200x250-tiny.png</PackageIcon>
@@ -23,16 +23,23 @@
     <PackageReleaseNotes>Sikes Alley</PackageReleaseNotes>
     <Copyright>None</Copyright>
     <Win32Resource />
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <FileVersion>1.0.2.0</FileVersion>
-    <UserSecretsId>0de0e8de-2946-46fc-bef7-59af5e3e1bc7</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.AspNetCore.Components.WebAssembly" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.7" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.7" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 

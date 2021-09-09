@@ -15,21 +15,35 @@
     "IIS Express": {
       "commandName": "Project",
       "workingDirectory": "C:\\Users\\Sike42\\source\\repos\\nerdjewels",
-      "launchUrl": "http://localhost/websites/nerdjewels/",
+      "launchUrl": "https://localhost:5001/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       },
       "applicationUrl": "https://nerdjewels.com",
       "inspectUri": "https://nerdjewels.com:80/_framework/debug/ws-proxy?browser={browserInspectUri}"
-    
     },
-    "BlazorApp1.Server": {
+    "Debug": {
       "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Sike42\\source\\repos\\nerdjewels",
       "launchBrowser": true,
-      "inspectUri": "https://nerdjewels.com:80/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": "http://localhost/websites/nerdjewels/",
+      "sqlDebugging": false,
+      "nativeDebugging": false,
+      "jsWebView2Debugging": true
+    },
+    "Nerdjewels.Server": {
+      "commandName": "Executable",
+      "workingDirectory": "C:\\Users\\Sike42\\source\\repos\\nerdjewels",
+      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }}
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "inspectUri": "https://nerdjewels.com:80/_framework/debug/ws-proxy?browser={browserInspectUri}"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true
+    }
   }
 }
