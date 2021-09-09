@@ -15,8 +15,8 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6A8D8B9-48F0-41DB-BB4D-E7C9AAC03605}.CICD_nerd|Any CPU.ActiveCfg = CICD_nerd|Any CPU
-		{A6A8D8B9-48F0-41DB-BB4D-E7C9AAC03605}.CICD_nerd|Any CPU.Build.0 = CICD_nerd|Any CPU
+		{A6A8D8B9-48F0-41DB-BB4D-E7C9AAC03605}.CICD_nerd|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A8D8B9-48F0-41DB-BB4D-E7C9AAC03605}.CICD_nerd|Any CPU.Build.0 = Debug|Any CPU
 		{A6A8D8B9-48F0-41DB-BB4D-E7C9AAC03605}.CICD_nerd|x86.ActiveCfg = Release|Any CPU
 		{A6A8D8B9-48F0-41DB-BB4D-E7C9AAC03605}.CICD_nerd|x86.Build.0 = Release|Any CPU
 		{A6A8D8B9-48F0-41DB-BB4D-E7C9AAC03605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
