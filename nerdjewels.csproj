@@ -12,7 +12,7 @@
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <Version>1.0.1</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <ApplicationIcon></ApplicationIcon>
+    <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
     <StartupObject />
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <PackageIcon>492421298-200x250-tiny.png</PackageIcon>
@@ -26,6 +26,7 @@
     <OutputType>WinExe</OutputType>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <FileVersion>1.0.2.0</FileVersion>
+    <UserSecretsId>0de0e8de-2946-46fc-bef7-59af5e3e1bc7</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
