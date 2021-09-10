@@ -7,36 +7,40 @@
     <Product>Nerdjewels</Product>
     <Description>Computer Repair Customer Portal</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>Sikes_Key_File.pfx</AssemblyOriginatorKeyFile>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <Version>1.0.1</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
     <StartupObject />
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <RepositoryType>github</RepositoryType>
-    <RepositoryUrl>https://github.com/mikewebaphorism/sikesalley.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mikewebaphorism/nerdjewels1.git</RepositoryUrl>
     <PackageTags>PC Repair</PackageTags>
     <PackageReleaseNotes>Sikes Alley</PackageReleaseNotes>
     <Copyright>None</Copyright>
     <Win32Resource />
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <FileVersion>1.0.2.0</FileVersion>
-    <UserSecretsId>0de0e8de-2946-46fc-bef7-59af5e3e1bc7</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="favicon.ico" />
+    <TrimmerRootAssembly Include="Microsoft.AspNetCore.Components.WebAssembly" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.7" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.7" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 
@@ -45,13 +49,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="docker-compose.dcproj.user">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="favicon.ico">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <None Include="wwwroot\ads.txt" />
     <None Include="wwwroot\robots.txt" />
     <None Include="wwwroot\sitemap.xml" />
   </ItemGroup>
@@ -62,6 +59,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\sitemap.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
