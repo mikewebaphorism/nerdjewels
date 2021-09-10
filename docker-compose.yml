@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nerdjewels:
+    image: ${DOCKER_REGISTRY-}nerdjewels
+    build:
+      context: .
+      dockerfile: Dockerfile

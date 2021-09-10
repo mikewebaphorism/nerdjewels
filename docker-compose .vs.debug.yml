@@ -1,0 +1,33 @@
+version: '3.4'
+
+services:
+  nerdjewels:
+    image: nerdjewels:dev
+    container_name: nerdjewels
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "nerdjewels"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2;c:\.nuget\fallbackpackages3
+    volumes:
+      - C:\Users\Sike42\.docker\devenvironments\website1\nerdjewels:C:\app
+      - C:\Users\Sike42\.docker\devenvironments\website1\nerdjewels:C:\src
+      - C:\Users\Sike42\onecoremsvsmon\16.11.1196.0:C:\remote_debugger:ro
+      - C:\Users\Sike42\.nuget\packages\:c:\.nuget\packages:ro
+      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
+      - C:\Program Files (x86)\Microsoft\Xamarin\NuGet\:c:\.nuget\fallbackpackages2:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages3:ro
+      - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages --additionalProbingPath c:\\.nuget\\fallbackpackages2 --additionalProbingPath c:\\.nuget\\fallbackpackages3  \"C:\\app\\bin\\Release\\net5.0\\nerdjewels.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
